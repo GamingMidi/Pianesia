@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{0244a942-1490-489f-8492-48236bc75481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Graphics Support">
+      <UniqueIdentifier>{58357c6a-4bfb-4d94-b7be-d18674d50398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Support">
+      <UniqueIdentifier>{38757894-ec22-4939-bfac-15cfe65ca64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\States">
+      <UniqueIdentifier>{78ed7111-dd35-437a-9325-12f6d7fb2baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\State Support">
+      <UniqueIdentifier>{731a0f8e-d554-4cb6-8dfe-5024590a69f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Midi">
+      <UniqueIdentifier>{dd6c6e34-a25a-42e2-aafc-ae3b0598daeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{463dfbba-ebf0-4e9e-a681-30f0d87c0382}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\GameState.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyboardDisplay.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PianoGameError.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Main\Graphics Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextWriter.cpp">
+      <Filter>Main\Graphics Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tga.cpp">
+      <Filter>Main\Graphics Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CompatibleSystem.cpp">
+      <Filter>Main\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_selector.cpp">
+      <Filter>Main\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\registry.cpp">
+      <Filter>Main\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UserSettings.cpp">
+      <Filter>Main\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\State_Playing.cpp">
+      <Filter>Main\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\State_Stats.cpp">
+      <Filter>Main\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\State_Title.cpp">
+      <Filter>Main\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\State_TrackSelection.cpp">
+      <Filter>Main\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeviceTile.cpp">
+      <Filter>Main\State Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuLayout.cpp">
+      <Filter>Main\State Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StringTile.cpp">
+      <Filter>Main\State Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrackTile.cpp">
+      <Filter>Main\State Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libmidi\Midi.cpp">
+      <Filter>Main\Midi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libmidi\MidiComm.cpp">
+      <Filter>Main\Midi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libmidi\MidiEvent.cpp">
+      <Filter>Main\Midi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libmidi\MidiTrack.cpp">
+      <Filter>Main\Midi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libmidi\MidiUtil.cpp">
+      <Filter>Main\Midi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libmidi\SynthVolume.cpp">
+      <Filter>Main\Midi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GameState.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KeyboardDisplay.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\os.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\os_graphics.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PianoGameError.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\version.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>Main\Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Textures.h">
+      <Filter>Main\Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextWriter.h">
+      <Filter>Main\Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tga.h">
+      <Filter>Main\Graphics Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CompatibleSystem.h">
+      <Filter>Main\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_selector.h">
+      <Filter>Main\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameCounter.h">
+      <Filter>Main\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\registry.h">
+      <Filter>Main\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\string_util.h">
+      <Filter>Main\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UserSettings.h">
+      <Filter>Main\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\State_Playing.h">
+      <Filter>Main\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\State_Stats.h">
+      <Filter>Main\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\State_Title.h">
+      <Filter>Main\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\State_TrackSelection.h">
+      <Filter>Main\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DeviceTile.h">
+      <Filter>Main\State Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MenuLayout.h">
+      <Filter>Main\State Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SharedState.h">
+      <Filter>Main\State Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StringTile.h">
+      <Filter>Main\State Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrackProperties.h">
+      <Filter>Main\State Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrackTile.h">
+      <Filter>Main\State Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libmidi\Midi.h">
+      <Filter>Main\Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libmidi\MidiComm.h">
+      <Filter>Main\Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libmidi\MidiEvent.h">
+      <Filter>Main\Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libmidi\MidiTrack.h">
+      <Filter>Main\Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libmidi\MidiTypes.h">
+      <Filter>Main\Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libmidi\MidiUtil.h">
+      <Filter>Main\Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libmidi\Note.h">
+      <Filter>Main\Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libmidi\SynthVolume.h">
+      <Filter>Main\Midi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt">
+      <Filter>Resources</Filter>
+    </Text>
+    <Text Include="readme.txt">
+      <Filter>Resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nsis_installer_script.nsi">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\resource.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
